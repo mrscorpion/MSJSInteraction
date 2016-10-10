@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Z2e-SF-PEl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--JS和OC交互-->
+        <scene sceneID="34O-m8-Rnd">
+            <objects>
+                <viewController id="ioB-Aw-i2v" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9rb-uV-tdh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zzj-e0-Yfa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wXr-Dd-wvg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j2P-sc-feJ">
+                                <color key="backgroundColor" red="1" green="0.92022907620000005" blue="0.069259453050000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioD-q6-WYE">
+                                <state key="normal" title="获取用户的信息"/>
+                                <connections>
+                                    <action selector="getUserinfo" destination="ioB-Aw-i2v" eventType="touchUpInside" id="0d1-xE-Fq1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqc-s9-8ri">
+                                <state key="normal" title="弹窗输出"/>
+                                <connections>
+                                    <action selector="showInfo" destination="ioB-Aw-i2v" eventType="touchUpInside" id="7a0-Fa-U9k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hB-VD-Mwq">
+                                <state key="normal" title="界面跳转"/>
+                                <connections>
+                                    <action selector="pushToNewWebSite" destination="ioB-Aw-i2v" eventType="touchUpInside" id="1W8-kn-zhW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pij-QG-RMx">
+                                <state key="normal" title="插入图片"/>
+                                <connections>
+                                    <action selector="insertImgToWebPage" destination="ioB-Aw-i2v" eventType="touchUpInside" id="eNL-Tl-NYx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OC调用JS的方法:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cny-gT-vBB">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rat-lE-6t0">
+                                <state key="normal" title="刷新界面"/>
+                                <connections>
+                                    <action selector="reloadWebPage" destination="ioB-Aw-i2v" eventType="touchUpInside" id="eT4-aP-9Pa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="j2P-sc-feJ" firstAttribute="leading" secondItem="wXr-Dd-wvg" secondAttribute="leading" id="3bw-QP-Rwe"/>
+                            <constraint firstItem="Zzj-e0-Yfa" firstAttribute="top" secondItem="j2P-sc-feJ" secondAttribute="bottom" constant="250" id="7jc-iL-aLZ"/>
+                            <constraint firstItem="ioD-q6-WYE" firstAttribute="leading" secondItem="wXr-Dd-wvg" secondAttribute="leading" constant="15" id="F5P-6E-UN7"/>
+                            <constraint firstItem="rat-lE-6t0" firstAttribute="leading" secondItem="3hB-VD-Mwq" secondAttribute="trailing" constant="66" id="G7H-8f-dAe"/>
+                            <constraint firstItem="cny-gT-vBB" firstAttribute="top" secondItem="j2P-sc-feJ" secondAttribute="bottom" constant="21" id="NID-qi-5mR"/>
+                            <constraint firstItem="cny-gT-vBB" firstAttribute="leading" secondItem="wXr-Dd-wvg" secondAttribute="leading" constant="15" id="TKW-sR-awM"/>
+                            <constraint firstItem="j2P-sc-feJ" firstAttribute="top" secondItem="wXr-Dd-wvg" secondAttribute="top" id="X25-0r-lMU"/>
+                            <constraint firstItem="pij-QG-RMx" firstAttribute="leading" secondItem="rat-lE-6t0" secondAttribute="trailing" constant="-186" id="XwD-Cz-tMi"/>
+                            <constraint firstItem="rat-lE-6t0" firstAttribute="top" secondItem="j2P-sc-feJ" secondAttribute="bottom" constant="88" id="YtT-uS-jLe"/>
+                            <constraint firstItem="3hB-VD-Mwq" firstAttribute="leading" secondItem="Zqc-s9-8ri" secondAttribute="trailing" constant="-186" id="cPT-iK-xtW"/>
+                            <constraint firstItem="Zqc-s9-8ri" firstAttribute="leading" secondItem="ioD-q6-WYE" secondAttribute="trailing" constant="21" id="h4r-dP-LWY"/>
+                            <constraint firstItem="pij-QG-RMx" firstAttribute="top" secondItem="j2P-sc-feJ" secondAttribute="bottom" constant="88" id="lL3-Ag-6Tw"/>
+                            <constraint firstAttribute="trailing" secondItem="j2P-sc-feJ" secondAttribute="trailing" id="lMi-wp-Rju"/>
+                            <constraint firstItem="ioD-q6-WYE" firstAttribute="top" secondItem="cny-gT-vBB" secondAttribute="bottom" constant="8" id="mD7-w7-10i"/>
+                            <constraint firstItem="3hB-VD-Mwq" firstAttribute="top" secondItem="j2P-sc-feJ" secondAttribute="bottom" constant="170" id="o4a-TC-Mbw"/>
+                            <constraint firstItem="Zqc-s9-8ri" firstAttribute="top" secondItem="j2P-sc-feJ" secondAttribute="bottom" constant="50" id="w8s-mo-4PV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="JS和OC交互" id="vhG-uD-PzO"/>
+                    <connections>
+                        <outlet property="webView" destination="j2P-sc-feJ" id="ds5-i7-Abo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D0w-TA-fon" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1124" y="204.64767616191907"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MWO-pH-C2D">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z2e-SF-PEl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XWV-2r-0By">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ioB-Aw-i2v" kind="relationship" relationship="rootViewController" id="HUF-LE-DMP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DX2-DG-lwd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184.80000000000001" y="204.64767616191907"/>
+        </scene>
+    </scenes>
+</document>

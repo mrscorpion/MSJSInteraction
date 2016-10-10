@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A666C87D1DAB9FBA00FDE0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A666C87C1DAB9FBA00FDE0CE /* main.m */; };
+		A666C8801DAB9FBA00FDE0CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A666C87F1DAB9FBA00FDE0CE /* AppDelegate.m */; };
+		A666C8831DAB9FBA00FDE0CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A666C8821DAB9FBA00FDE0CE /* ViewController.m */; };
+		A666C8861DAB9FBA00FDE0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A666C8841DAB9FBA00FDE0CE /* Main.storyboard */; };
+		A666C8881DAB9FBA00FDE0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A666C8871DAB9FBA00FDE0CE /* Assets.xcassets */; };
+		A666C88B1DAB9FBA00FDE0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A666C8891DAB9FBA00FDE0CE /* LaunchScreen.storyboard */; };
+		A666C8961DAB9FBB00FDE0CE /* MSJSInteractionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A666C8951DAB9FBB00FDE0CE /* MSJSInteractionTests.m */; };
+		A666C8A11DAB9FFB00FDE0CE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A666C8A01DAB9FFB00FDE0CE /* index.html */; };
+		D83F16257B22F5EEC22670AA /* libPods-MSJSInteraction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EE7B1D188BA4E9089EC746 /* libPods-MSJSInteraction.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A666C8921DAB9FBB00FDE0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A666C8701DAB9FB900FDE0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A666C8771DAB9FB900FDE0CE;
+			remoteInfo = MSJSInteraction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17EE7B1D188BA4E9089EC746 /* libPods-MSJSInteraction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSJSInteraction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466CD37C2B0F66915642714B /* Pods-MSJSInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSJSInteraction.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSJSInteraction/Pods-MSJSInteraction.release.xcconfig"; sourceTree = "<group>"; };
+		A666C8781DAB9FB900FDE0CE /* MSJSInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSJSInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A666C87C1DAB9FBA00FDE0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A666C87E1DAB9FBA00FDE0CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A666C87F1DAB9FBA00FDE0CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A666C8811DAB9FBA00FDE0CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A666C8821DAB9FBA00FDE0CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A666C8851DAB9FBA00FDE0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A666C8871DAB9FBA00FDE0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A666C88A1DAB9FBA00FDE0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A666C88C1DAB9FBA00FDE0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A666C8911DAB9FBB00FDE0CE /* MSJSInteractionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSJSInteractionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A666C8951DAB9FBB00FDE0CE /* MSJSInteractionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSJSInteractionTests.m; sourceTree = "<group>"; };
+		A666C8971DAB9FBB00FDE0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A666C8A01DAB9FFB00FDE0CE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		D1C412796CD14FF3FBEA31DF /* Pods-MSJSInteraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSJSInteraction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSJSInteraction/Pods-MSJSInteraction.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A666C8751DAB9FB900FDE0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83F16257B22F5EEC22670AA /* libPods-MSJSInteraction.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A666C88E1DAB9FBB00FDE0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F99C4A5E9A6DF8BA98E09CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17EE7B1D188BA4E9089EC746 /* libPods-MSJSInteraction.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A666C86F1DAB9FB900FDE0CE = {
+			isa = PBXGroup;
+			children = (
+				A666C87A1DAB9FB900FDE0CE /* MSJSInteraction */,
+				A666C8941DAB9FBB00FDE0CE /* MSJSInteractionTests */,
+				A666C8791DAB9FB900FDE0CE /* Products */,
+				D3F799FDF0865F14255F8FE8 /* Pods */,
+				7F99C4A5E9A6DF8BA98E09CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A666C8791DAB9FB900FDE0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A666C8781DAB9FB900FDE0CE /* MSJSInteraction.app */,
+				A666C8911DAB9FBB00FDE0CE /* MSJSInteractionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A666C87A1DAB9FB900FDE0CE /* MSJSInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				A666C87E1DAB9FBA00FDE0CE /* AppDelegate.h */,
+				A666C87F1DAB9FBA00FDE0CE /* AppDelegate.m */,
+				A666C8811DAB9FBA00FDE0CE /* ViewController.h */,
+				A666C8821DAB9FBA00FDE0CE /* ViewController.m */,
+				A666C8841DAB9FBA00FDE0CE /* Main.storyboard */,
+				A666C8871DAB9FBA00FDE0CE /* Assets.xcassets */,
+				A666C8891DAB9FBA00FDE0CE /* LaunchScreen.storyboard */,
+				A666C88C1DAB9FBA00FDE0CE /* Info.plist */,
+				A666C8A01DAB9FFB00FDE0CE /* index.html */,
+				A666C87B1DAB9FBA00FDE0CE /* Supporting Files */,
+			);
+			path = MSJSInteraction;
+			sourceTree = "<group>";
+		};
+		A666C87B1DAB9FBA00FDE0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A666C87C1DAB9FBA00FDE0CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A666C8941DAB9FBB00FDE0CE /* MSJSInteractionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A666C8951DAB9FBB00FDE0CE /* MSJSInteractionTests.m */,
+				A666C8971DAB9FBB00FDE0CE /* Info.plist */,
+			);
+			path = MSJSInteractionTests;
+			sourceTree = "<group>";
+		};
+		D3F799FDF0865F14255F8FE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1C412796CD14FF3FBEA31DF /* Pods-MSJSInteraction.debug.xcconfig */,
+				466CD37C2B0F66915642714B /* Pods-MSJSInteraction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A666C8771DAB9FB900FDE0CE /* MSJSInteraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A666C89A1DAB9FBB00FDE0CE /* Build configuration list for PBXNativeTarget "MSJSInteraction" */;
+			buildPhases = (
+				955E4BD628E1A055CDB9292F /* [CP] Check Pods Manifest.lock */,
+				A666C8741DAB9FB900FDE0CE /* Sources */,
+				A666C8751DAB9FB900FDE0CE /* Frameworks */,
+				A666C8761DAB9FB900FDE0CE /* Resources */,
+				55E6FDB462493F8CDBB0AB4D /* [CP] Embed Pods Frameworks */,
+				DA47AE3F6B9C3DC2ED041FCD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSJSInteraction;
+			productName = MSJSInteraction;
+			productReference = A666C8781DAB9FB900FDE0CE /* MSJSInteraction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A666C8901DAB9FBB00FDE0CE /* MSJSInteractionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A666C89D1DAB9FBB00FDE0CE /* Build configuration list for PBXNativeTarget "MSJSInteractionTests" */;
+			buildPhases = (
+				A666C88D1DAB9FBB00FDE0CE /* Sources */,
+				A666C88E1DAB9FBB00FDE0CE /* Frameworks */,
+				A666C88F1DAB9FBB00FDE0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A666C8931DAB9FBB00FDE0CE /* PBXTargetDependency */,
+			);
+			name = MSJSInteractionTests;
+			productName = MSJSInteractionTests;
+			productReference = A666C8911DAB9FBB00FDE0CE /* MSJSInteractionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A666C8701DAB9FB900FDE0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mr.scorpion;
+				TargetAttributes = {
+					A666C8771DAB9FB900FDE0CE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GXHE3742MX;
+						ProvisioningStyle = Automatic;
+					};
+					A666C8901DAB9FBB00FDE0CE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GXHE3742MX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A666C8771DAB9FB900FDE0CE;
+					};
+				};
+			};
+			buildConfigurationList = A666C8731DAB9FB900FDE0CE /* Build configuration list for PBXProject "MSJSInteraction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A666C86F1DAB9FB900FDE0CE;
+			productRefGroup = A666C8791DAB9FB900FDE0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A666C8771DAB9FB900FDE0CE /* MSJSInteraction */,
+				A666C8901DAB9FBB00FDE0CE /* MSJSInteractionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A666C8761DAB9FB900FDE0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A666C88B1DAB9FBA00FDE0CE /* LaunchScreen.storyboard in Resources */,
+				A666C8A11DAB9FFB00FDE0CE /* index.html in Resources */,
+				A666C8881DAB9FBA00FDE0CE /* Assets.xcassets in Resources */,
+				A666C8861DAB9FBA00FDE0CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A666C88F1DAB9FBB00FDE0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55E6FDB462493F8CDBB0AB4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSJSInteraction/Pods-MSJSInteraction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955E4BD628E1A055CDB9292F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA47AE3F6B9C3DC2ED041FCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSJSInteraction/Pods-MSJSInteraction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A666C8741DAB9FB900FDE0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A666C8831DAB9FBA00FDE0CE /* ViewController.m in Sources */,
+				A666C8801DAB9FBA00FDE0CE /* AppDelegate.m in Sources */,
+				A666C87D1DAB9FBA00FDE0CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A666C88D1DAB9FBB00FDE0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A666C8961DAB9FBB00FDE0CE /* MSJSInteractionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A666C8931DAB9FBB00FDE0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A666C8771DAB9FB900FDE0CE /* MSJSInteraction */;
+			targetProxy = A666C8921DAB9FBB00FDE0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A666C8841DAB9FBA00FDE0CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A666C8851DAB9FBA00FDE0CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A666C8891DAB9FBA00FDE0CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A666C88A1DAB9FBA00FDE0CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A666C8981DAB9FBB00FDE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A666C8991DAB9FBB00FDE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A666C89B1DAB9FBB00FDE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C412796CD14FF3FBEA31DF /* Pods-MSJSInteraction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXHE3742MX;
+				INFOPLIST_FILE = MSJSInteraction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSJSInteraction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A666C89C1DAB9FBB00FDE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466CD37C2B0F66915642714B /* Pods-MSJSInteraction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXHE3742MX;
+				INFOPLIST_FILE = MSJSInteraction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSJSInteraction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A666C89E1DAB9FBB00FDE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GXHE3742MX;
+				INFOPLIST_FILE = MSJSInteractionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSJSInteractionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSJSInteraction.app/MSJSInteraction";
+			};
+			name = Debug;
+		};
+		A666C89F1DAB9FBB00FDE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GXHE3742MX;
+				INFOPLIST_FILE = MSJSInteractionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSJSInteractionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSJSInteraction.app/MSJSInteraction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A666C8731DAB9FB900FDE0CE /* Build configuration list for PBXProject "MSJSInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A666C8981DAB9FBB00FDE0CE /* Debug */,
+				A666C8991DAB9FBB00FDE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A666C89A1DAB9FBB00FDE0CE /* Build configuration list for PBXNativeTarget "MSJSInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A666C89B1DAB9FBB00FDE0CE /* Debug */,
+				A666C89C1DAB9FBB00FDE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A666C89D1DAB9FBB00FDE0CE /* Build configuration list for PBXNativeTarget "MSJSInteractionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A666C89E1DAB9FBB00FDE0CE /* Debug */,
+				A666C89F1DAB9FBB00FDE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A666C8701DAB9FB900FDE0CE /* Project object */;
+}
